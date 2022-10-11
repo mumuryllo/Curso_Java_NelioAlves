@@ -1,0 +1,59 @@
+package Entidades;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Contrato {
+	     private LocalDate data;
+	     private int numero;
+	     private double valorTotal;
+	     private List<Reserva> reservas = new ArrayList<>();
+	     
+	     
+		    public Contrato(LocalDate data, int numero, double valorTotal) {
+			this.data = data;
+			this.numero = numero;
+			this.valorTotal = valorTotal;
+		}
+
+
+			public LocalDate getData() {
+				return data;
+			}
+
+
+			public void setData(LocalDate data) {
+				this.data = data;
+			}
+
+
+			public int getNumero() {
+				return numero;
+			}
+
+
+			public void setNumero(int numero) {
+				this.numero = numero;
+			}
+
+
+			public double getValorTotal() {
+				return valorTotal;
+			}
+
+
+			public void setValorTotal(double valorTotal) {
+				this.valorTotal = valorTotal;
+			}
+
+
+			public List<Reserva> getReservas() {
+				return reservas;
+			}
+
+
+		
+	        
+	     
+}

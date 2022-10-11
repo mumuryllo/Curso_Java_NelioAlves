@@ -1,0 +1,12 @@
+package Entidades;
+
+import java.time.LocalDate;
+
+public class Reserva {
+
+     private LocalDate data;
+     private double quantia;
+     
+     
+	
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Entidades.Triangulo"/>
+    <fullyQualifiedTypeName name="Entidades.Produto"/>
+    <fullyQualifiedTypeName name="Entidades.Pessoa"/>
+    <fullyQualifiedTypeName name="Entidades.Pensao"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Entidades.Conta"/>
+    <fullyQualifiedTypeName name="Entidades.ContaJuridica"/>
+    <fullyQualifiedTypeName name="Entidades.SalvarConta"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="Interfaces.OnlinePagamento"/>
+    <fullyQualifiedTypeName name="Entidades.Contrato"/>
+    <fullyQualifiedTypeName name="Entidades.Reserva"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="Entidades.Servicos"/>
+</qualifiedTypeNameHistroy>

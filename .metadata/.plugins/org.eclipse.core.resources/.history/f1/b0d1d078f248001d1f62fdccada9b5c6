@@ -1,0 +1,22 @@
+package arrays_vetores;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import Entidades.Pensao;
+
+public class Programa4 {
+
+	public static void main(String[] args) {
+		 Locale.setDefault(Locale.US);
+		 Scanner sc = new Scanner(System.in);
+	     
+		 Pensao pensionistas = new Pensao("Maria", "Maria@gmail.com");
+		 
+		 System.out.println(pensionistas);
+
+		 sc.close();
+	}
+	}
+
+

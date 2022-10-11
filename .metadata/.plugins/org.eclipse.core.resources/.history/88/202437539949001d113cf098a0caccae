@@ -1,0 +1,34 @@
+package Interfaces;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
+import java.util.Scanner;
+
+import Entidades.Contrato;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		 Locale.setDefault(Locale.US);
+		 Scanner sc = new Scanner(System.in);
+	     
+		 
+		 DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		 
+		 System.out.println("Entre com os dados do contrato:");
+		 System.out.println("Número: ");
+		 int numero = sc.nextInt();
+		 System.out.println("data (dd/mm/yyyy)");
+		 LocalDate data = LocalDate.parse(sc.next(),fmt);
+		 System.out.println("Valor do Contrato : ");
+         double valorTotal = sc.nextDouble();
+         
+         Contrato contrato = new Contrato(data, numero, valorTotal);
+         System.out.println("Número de parcelas : ");
+		 int parcelas = sc.nextInt();		 
+		 
+		 
+		 sc.close();
+	}
+
+}

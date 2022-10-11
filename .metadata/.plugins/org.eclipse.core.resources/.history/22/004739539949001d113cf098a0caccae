@@ -1,0 +1,8 @@
+package Interfaces;
+
+public interface OnlinePagamento {
+	
+	double pagamento(double quantia);
+	double juros(double quantia, int meses);
+
+}

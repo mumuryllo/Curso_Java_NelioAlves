@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\msseverino\OneDrive - rd.com.br\Desktop\Exercicios Java\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1570852477.index
+3315657333.index

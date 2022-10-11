@@ -1,0 +1,35 @@
+package try_catch;
+import java.util.InputMismatchException;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		 Locale.setDefault(Locale.US);
+		 Scanner sc = new Scanner(System.in);
+	     
+		 
+		 // Try executa o código normalmente
+		 try {
+			 String [] vetor = sc.nextLine().split(" ");
+			 int posicao =sc.nextInt();
+			 System.out.println(vetor[posicao]);
+		 }
+		 // catch executa caso uma exceção ocorra e deve ser tratada
+	     catch (ArrayIndexOutOfBoundsException e){
+	    	 System.out.println("Posição inválida ");
+	     }
+		 catch (InputMismatchException e){
+	    	 System.out.println("Tipo de dado inválido ");
+	     }
+		 // finally executa o bloco independetemente se ocorreu uma exceção ou não
+		 finally {
+			 System.out.println("Programa executou! ");
+		 }
+
+         System.out.println("Fim do programa! ");
+		 sc.close();
+	}
+
+}

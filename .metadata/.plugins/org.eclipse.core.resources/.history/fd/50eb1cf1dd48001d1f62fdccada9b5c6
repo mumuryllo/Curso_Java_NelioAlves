@@ -1,0 +1,29 @@
+package arrays_vetores;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import Entidades.Produto;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		 Locale.setDefault(Locale.US);
+		 Scanner sc = new Scanner(System.in);
+	     
+		 int tamanho= sc.nextInt();
+		 
+		 // Aqui declaro o tamanho do meu vetor
+		 Produto [] vetor = new Produto[tamanho];
+		   
+		 for(int i=0; i<tamanho; i++) {
+			 sc.nextInt();
+			 String nome = sc.nextLine();
+			 double preco = sc.nextDouble();
+			 vetor[i] = new Pr
+		 }
+		  
+		 sc.close();
+	}
+
+}

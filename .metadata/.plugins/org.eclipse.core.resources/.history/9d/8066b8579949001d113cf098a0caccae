@@ -1,0 +1,21 @@
+package Entidades;
+
+import java.time.LocalDate;
+
+import Interfaces.OnlinePagamento;
+
+public class Servicos {
+	
+	private OnlinePagamento onlinePagamento;
+
+	public Servicos(OnlinePagamento onlinePagamento) {
+		this.onlinePagamento = onlinePagamento;
+	}
+	
+	public void processoContrato(Contrato contrato) {
+		contrato.getReservas().add(new Reserva(LocalDate.of(2018, 6, 20), 200.00));
+		contrato.getReservas().add(new Reserva(LocalDate.of(2018, 7, 20), 200.00));
+
+	}
+
+}
